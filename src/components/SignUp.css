@@ -1,0 +1,113 @@
+/* Container principal pour le formulaire */
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Formulaire de connexion */
+  .signin-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px; /* Augmenter la largeur maximale */
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .signin-form:hover {
+    transform: translateY(-5px); /* Légère animation d'élévation */
+  }
+  
+  /* Titre du formulaire */
+  .signin-form h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Champs de formulaire */
+  .signin-form input {
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Focus sur les champs de saisie */
+  .signin-form input:focus {
+    border-color: #007bff;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+    outline: none;
+  }
+  
+  /* Bouton de connexion */
+  .signin-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .signin-form button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Animation de survol */
+  }
+  
+  /* Liens de redirection */
+  .signin-form p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .signin-form p a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  /* Effet au survol du lien */
+  .signin-form p a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  /* Message d'erreur ou de succès */
+  .message {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .message.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+  }
+  
+  .message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+  }
+  

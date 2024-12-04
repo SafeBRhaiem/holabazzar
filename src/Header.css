@@ -1,0 +1,16 @@
+/* Header.css */
+.navbar {
+    padding: 5px 15px; /* Ajuste les espaces supérieur et inférieur */
+  }
+  
+  .logo {
+    width: 60px; /* Ajuste la taille du logo */
+    height: auto; /* Assure que l'image conserve son ratio d'aspect */
+    border-radius: 10%; /* Pour des bords arrondis, si désiré */
+    transition: transform 0.3s ease; /* Pour un effet au survol */
+  }
+  
+  .logo:hover {
+    transform: scale(1.1); /* Agrandir légèrement au survol */
+  }
+  

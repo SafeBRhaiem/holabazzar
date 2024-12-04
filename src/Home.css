@@ -1,0 +1,49 @@
+/* src/Home.css */
+.main-banner {
+    background-image: url('https://via.placeholder.com/1200x400?text=Bannière+Promo');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .banner-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .search-bar {
+    margin-left: auto;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  /* Galerie d'images pour chaque produit */
+.image-gallery {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.product-image {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.product-image:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,113 @@
+/* src/components/AddProduct.css */
+
+/* Conteneur principal */
+div {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style pour le formulaire */
+  form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+  }
+  
+  /* Titres */
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style des champs de formulaire */
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Focus sur les champs de formulaire */
+  input:focus, select:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Labels */
+  label {
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Bouton de soumission */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Effet au survol du bouton */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Affichage des erreurs */
+  input:invalid {
+    border-color: red;
+  }
+  
+  input:valid {
+    border-color: green;
+  }
+  
+  /* Style pour les images */
+  input[type="file"] {
+    padding: 6px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  /* Style pour les catégories et la description */
+  select {
+    font-size: 16px;
+  }
+  
+  textarea {
+    font-size: 16px;
+    resize: vertical;
+    height: 100px;
+  }
+  
+  /* Rendre le formulaire responsive */
+  @media (max-width: 768px) {
+    form {
+      padding: 15px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
+  

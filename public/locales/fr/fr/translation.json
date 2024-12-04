@@ -1,0 +1,16 @@
+{
+    "addProduct": "Ajouter un produit",
+    "productName": "Nom du produit",
+    "price": "Prix",
+    "quantity": "Quantité",
+    "category": "Catégorie",
+    "images": "Images",
+    "description": "Description",
+    "addToCart": "Ajouter au panier",
+    "order": "Commander",
+    "emptyCart": "Votre panier est vide.",
+    "applyPromo": "Appliquer",
+    "shippingAddress": "Adresse de livraison",
+    "promoCode": "Code promo"
+  }
+  

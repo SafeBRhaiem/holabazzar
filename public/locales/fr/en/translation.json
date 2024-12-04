@@ -1,0 +1,16 @@
+{
+    "addProduct": "Add a product",
+    "productName": "Product Name",
+    "price": "Price",
+    "quantity": "Quantity",
+    "category": "Category",
+    "images": "Images",
+    "description": "Description",
+    "addToCart": "Add to cart",
+    "order": "Order",
+    "emptyCart": "Your cart is empty.",
+    "applyPromo": "Apply",
+    "shippingAddress": "Shipping Address",
+    "promoCode": "Promo Code"
+  }
+  
